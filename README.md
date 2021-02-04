@@ -155,6 +155,13 @@ mount -o remount,rw /boot
 
 ## Development & building
 
+### Dependencies
+
+#### Fedora
+
+* aarch64 cross compiler
+* perl-ExtUtils-MakeMaker
+
 Clone or download this repository. Then inside it:
 
 - Download the latest Buildroot stable from https://buildroot.org/download.html
