@@ -1,0 +1,7 @@
+config BR2_PACKAGE_UVCGADGET
+	bool "Raspberry Pi UVC Webcam"
+	select BR2_PACKAGE_LIBV4L_UTILS
+	help
+	  Install Raspberry Pi UVC Webcam package
+
+	  https://github.com/calebccff/uvc-gadget
